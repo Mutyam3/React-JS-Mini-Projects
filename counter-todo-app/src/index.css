@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#appBox{
+
+  border:2px solid black;
+  padding:25px;
+  text-align: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#counterBox {
+   
+    border:2px solid black;
+    padding:20px;
+
 }
+
+#counterBox button 
+{
+    margin:15px;
+    padding:10px 20px 10px 20px;
+    border:0px;
+    border-radius:10px;
+    font-size: medium;
+}
+
+
