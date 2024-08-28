@@ -37,7 +37,7 @@ function TodoList()
 
        //template 
        return (
-            <div>
+            <div id="todoBox">
                 <h1>Todo - App</h1>
 
                 <div>
@@ -62,3 +62,4 @@ function TodoList()
 
 
 export default TodoList
+// okavela manaki chala component export cheyali ante just defult tesi export component Name ivvandi 
